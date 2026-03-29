@@ -1,0 +1,22 @@
+# ── Web Framework ──────────────────────────────────────
+fastapi
+uvicorn[standard]
+
+# ── Database ───────────────────────────────────────────
+sqlalchemy
+asyncpg
+
+# ── Validation ─────────────────────────────────────────
+pydantic
+pydantic[email]
+
+# ── Auth & Security ────────────────────────────────────
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+
+# ── HTTP Client (Google OAuth) ─────────────────────────
+httpx==0.27.0
+
+# ── Environment Variables ──────────────────────────────
+python-dotenv
